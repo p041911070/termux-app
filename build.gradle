@@ -4,12 +4,19 @@ buildscript {
         google()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.2.2"
+        //classpath "com.android.tools.build:gradle:4.2.2"
+        classpath "com.android.tools.build:gradle:7.4.2"
     }
 }
 
 allprojects {
     repositories {
+//        maven { url 'https://maven.aliyun.com/repository/public' }
+//        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+//        maven { url 'https://maven.aliyun.com/repository/google' }
+//        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+//        mavenLocal()
+//        mavenCentral()
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
