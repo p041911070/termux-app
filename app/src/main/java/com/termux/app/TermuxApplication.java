@@ -79,7 +79,8 @@ public class TermuxApplication extends Application {
         // Load the log level from shared preferences and set it to the {@link Logger.CURRENT_LOG_LEVEL}
         TermuxAppSharedPreferences preferences = TermuxAppSharedPreferences.build(context);
         if (preferences == null) return;
-        preferences.setLogLevel(null, preferences.getLogLevel());
+        //preferences.setLogLevel(null, preferences.getLogLevel());
+        preferences.setLogLevel(null, 3);
     }
 
 }
